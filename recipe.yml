@@ -1,0 +1,12 @@
+name: 'Bikeclub Dev'
+description: 'Provides development tools. Install only in a local development environment.'
+type: 'Admin tools'
+install:
+  # Contrib.
+  - devel
+  - config_ignore  
+  - config_single_export
+config:
+  import:
+    devel: '*'
+    config_ignore: '*'

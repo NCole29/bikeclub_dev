@@ -1,0 +1,20 @@
+{
+  "name": "bikeclub/bikeclub_dev",
+  "description": "Provides development tools.",
+  "keywords": ["recipe", "Drupal standard install"],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Nancy Cole",
+      "homepage": "https://bikeclubsites.com",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "drupal/devel": "^5.3",
+    "drupal/config_single_export": "^1.4",
+    "drupal/config_ignore": "^3.3"
+  },
+  "version": "1.0.1"
+}
