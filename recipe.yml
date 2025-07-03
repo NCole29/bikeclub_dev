@@ -1,11 +1,14 @@
 name: 'Bikeclub Dev'
-description: 'Provides development tools. Install only in a local development environment.'
+description: 'Provides development tools. DO NOT install in production environment.'
 type: 'Admin tools'
 install:
   # Contrib.
   - devel
+  - devel_kint_extras
+  - config_delete
   - config_ignore  
   - config_single_export
+  - masquerade
 config:
   import:
     devel: '*'
