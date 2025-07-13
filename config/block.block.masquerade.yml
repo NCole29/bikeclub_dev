@@ -5,8 +5,6 @@ dependencies:
     - masquerade
     - system
     - user
-  theme:
-    - bikeclub_olivero
 id: masquerade
 theme: clubtheme
 region: sidebar
