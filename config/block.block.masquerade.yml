@@ -6,7 +6,7 @@ dependencies:
     - system
     - user
 id: masquerade
-theme: clubtheme
+theme: olivero
 region: sidebar
 weight: -14
 provider: null
