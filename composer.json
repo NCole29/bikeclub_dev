@@ -13,7 +13,6 @@
   ],
   "require": {
     "drupal/devel": "^5.3",
-	"drupal/devel_kint_extras": "^1.1",
     "drupal/config_delete": "^2.0",
     "drupal/config_single_export": "^1.4",
     "drupal/config_ignore": "^3.3",
