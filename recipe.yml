@@ -13,4 +13,8 @@ config:
   strict: false
   import:
     devel: '*'
-    config_ignore: '*'
+  actions:
+    config_ignore.settings:
+      simpleConfigUpdate:
+        ignored_config_entities:
+          - 'contact.form.*'
